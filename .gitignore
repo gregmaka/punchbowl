@@ -85,4 +85,4 @@ sites/default/drushrc.php
 # Vendor files
 
 vendor
-
+modules/contrib
