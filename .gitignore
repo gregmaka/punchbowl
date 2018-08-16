@@ -82,3 +82,7 @@ sites/default/settings.local.db.php
 .env
 sites/default/drushrc.php
 
+# Vendor files
+
+vendor
+
