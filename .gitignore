@@ -86,3 +86,4 @@ sites/default/drushrc.php
 
 vendor
 modules/contrib
+themes/contrib
