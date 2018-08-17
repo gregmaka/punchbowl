@@ -1,0 +1,22 @@
+uuid: 5671b016-73e6-41b3-8998-d4bb05cecc36
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - punchbowl_parallax
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: punchbowl_parallax_breadcrumbs
+theme: punchbowl_parallax
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 40fec471-a02b-4120-b31a-3d7b2fb383f0
+langcode: en
+status: false
+dependencies:
+  theme:
+    - punchbowl_parallax
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: punchbowl_parallax_page_title
+theme: punchbowl_parallax
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
