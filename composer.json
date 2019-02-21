@@ -9,7 +9,8 @@
         "drush/drush": "~8.0",
         "drupal/admin_toolbar": "^1.24",
         "drupal/google_analytics": "^2.3",
-        "drupal/drupal8_parallax_theme": "^1.5"
+        "drupal/drupal8_parallax_theme": "^1.5",
+        "drupal/core": "^8.6"
     },
     "replace": {
         "drupal/core": "^8.5"
