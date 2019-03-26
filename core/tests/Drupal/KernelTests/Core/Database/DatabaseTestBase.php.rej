@@ -1,0 +1,16 @@
+***************
+*** 151,156 ****
+        ->fields([
+          'id' => 1,
+          'offset' => 'Offset value 1',
+        ])
+        ->execute();
+    }
+--- 151,157 ----
+        ->fields([
+          'id' => 1,
+          'offset' => 'Offset value 1',
++         'function' => 'Function value 1',
+        ])
+        ->execute();
+    }

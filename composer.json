@@ -10,10 +10,8 @@
         "drupal/admin_toolbar": "^1.24",
         "drupal/google_analytics": "^2.3",
         "drupal/drupal8_parallax_theme": "^1.5",
-        "drupal/core": "^8.6"
-    },
-    "replace": {
-        "drupal/core": "^8.5"
+        "drupal/core": "^8.6",
+        "cweagans/composer-patches": "^1.6"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -30,9 +28,6 @@
             "https://www.drupal.org/node/2718229"
         ],
         "merge-plugin": {
-            "include": [
-                "core/composer.json"
-            ],
             "recurse": true,
             "replace": false,
             "merge-extra": false

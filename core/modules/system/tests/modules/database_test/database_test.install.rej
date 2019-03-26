@@ -1,0 +1,19 @@
+***************
+*** 287,292 ****
+          'description' => 'A column with preserved name.',
+          'type' => 'text',
+        ],
+      ],
+      'primary key' => ['id'],
+    ];
+--- 287,296 ----
+          'description' => 'A column with preserved name.',
+          'type' => 'text',
+        ],
++       'function' => [
++         'description' => 'A column with reserved name in MySQL 8.',
++         'type' => 'text',
++       ],
+      ],
+      'primary key' => ['id'],
+    ];
